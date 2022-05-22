@@ -37,7 +37,7 @@ This example game assumes that you are hosting the server and clients on the sam
 
 Start the server
 
-    ./server localhost 3987 8 30 dict.txt
+    ./server localhost 3987 binary
     
 Start the client
 
