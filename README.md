@@ -33,6 +33,10 @@ Client format
 
 ### Example Game
 
+The player will guess a letter each round. The player's remaining guess will be decreased if the letter does not appear in the secret wor, or if the letter has already been guessed. The game is over if the player has guessed all letters, or there are no reamining guesses.
+
+The game can support multiple games at once. The server will continue to listen for connections until it is manually terminated.
+
 This example game assumes that you are hosting the server and clients on the same machine.
 
 Start the server
