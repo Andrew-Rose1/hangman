@@ -24,7 +24,7 @@ To run each program you need to pass in the correct arguements to avoid errors.
 
 Server format
    
-    ./server {HOST_ADDRESS} {HOST_PORT} {SECRET_WORD}
+    ./server {HOST_PORT} {SECRET_WORD}
     
 Client format
    
@@ -37,8 +37,14 @@ This example game assumes that you are hosting the server and clients on the sam
 
 Start the server
 
-    ./server localhost 3987 binary
+    ./server 3987 binary
     
 Start the client
 
     ./client localhost 3987
+    
+The client output is on the left, while the server output is on the right.
+<img width="1335" alt="Screen Shot 2022-05-21 at 9 31 11 PM" src="https://user-images.githubusercontent.com/55816533/169678749-43c0abcb-90a0-4d37-9964-80171afface7.png">
+<img width="1337" alt="Screen Shot 2022-05-21 at 9 31 31 PM" src="https://user-images.githubusercontent.com/55816533/169678752-1d07a746-a261-4db8-8f44-415dc4d2f31f.png">
+<img width="1327" alt="Screen Shot 2022-05-21 at 9 32 17 PM" src="https://user-images.githubusercontent.com/55816533/169678756-c933e1af-6bf3-4257-84b4-6da78031bd55.png">
+
